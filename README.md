@@ -8,6 +8,8 @@ ever sent over the network; everything runs in your browser.
 
 Part of [MMOALL Developer Tools](https://mmoall.com/tools).
 
+Also available at [mmoall.com/tools/dockerfile-generator](https://mmoall.com/tools/dockerfile-generator).
+
 ## Features
 
 - Nine stack templates, each a pure generator function: Node.js, Next.js
