@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import { Button, CopyButton, Panel, Select, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, Panel, Select, TextArea, Toolbar } from '@mmoall/tool-kit';
 import { CheckboxField, Field, ListEditor, TextField } from './FormControls';
 import { defaultOptionsFor } from './defaults';
 import { downloadTextFile } from './download';

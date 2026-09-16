@@ -1,11 +1,11 @@
 // Small form controls used only by this tool's form. Styled to match the
-// shared primitives in src/shell/ui.tsx (same border/bg/focus tokens) so
-// they look native, without adding to the shared shell itself — nothing
+// shared primitives in @mmoall/tool-kit (same border/bg/focus tokens) so
+// they look native, without adding to the shared kit itself — nothing
 // here is generic enough to belong there (single-line text/number inputs,
 // a repeatable key/value row editor).
 
 import type { ChangeEvent, ReactNode } from 'react';
-import { Button } from '../shell/ui';
+import { Button } from '@mmoall/tool-kit';
 
 const inputClassName =
   'w-full rounded-md border border-[var(--color-border)] bg-[var(--color-panel)] px-2 py-1.5 text-sm text-[var(--color-fg)] outline-none focus:border-[var(--color-accent)]';
